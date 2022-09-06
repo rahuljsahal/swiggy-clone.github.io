@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Playfair+Display:wght@500&family=Poppins&family=Raleway:wght@300;400;500&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.brand-name {
+    font-family: josefin sans;
+    color: rgb(255, 117, 43);
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+li {
+    font-family: josefin sans;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ls {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar {
+    display: flex;
+    width: 50%;
+    align-items: left;
+    gap: 265px;
+    justify-content: center;
+
+}
+
+.login {
+    color: black;
+    background-color: white;
+    font-family: josefin sans;
+}
+
+.signup {
+    color: white;
+    background-color: black;
+    padding: 12px 18px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.main {
+    display: flex;
+    align-items:flex-start;
+    gap: 100px;
+    justify-content: space-between;
+    margin: 0px;
+}
+.tag h1 {
+    font-family: poppins;
+    transform: translate(0px, 0px);
+    transition: 1s ease-in-out ;
+}
+@keyframes Rahul {
+    0% {}
+}
+.tag h3 {
+    font-family: poppins;
+}
+.cities {
+    font-family: poppins;
+}
+.searchtotal {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 100px ;
+    
+}
+.head1 {
+    font-size:40px ;
+    font-weight: 800;
+
+}
+.head3 {
+    font-size: 20px ;
+    font-weight: 200;
+    color: gray;
+}
+.para1 {
+    color: gray;
+}
+.para2 {
+    color: grey;
+}
+.search {
+    display: flex;
+}
+.search-box {
+    width: 500px;
+    padding: 16px 25px ;
+    font-family: poppins;
+    font-size: 16px;
+    border: 1px solid gray;
+    letter-spacing: 0.5px ;
+
+}
+.search-box:focus {
+    outline: none;
+    border: 1px solid darkorange;
+}
+.location-btn {
+    cursor: pointer;
+    background-color: darkorange;
+    color: white;
+    font-size: 18px;
+    padding: 17px 25px ;
+    font-family: poppins;
+    font-weight: 800;
+    border-color: darkorange;
+    border: none;
+}
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.login:hover {
+    outline: none;
+    color:darkorange;
+    font-weight: 20px ;
+}
+.section {
+    width: full;
+    height: 60vh ;
+    background-color: black;
+    
+}
+.section p {
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+.section img {
+   height: auto;
+    width: 140px;
+    margin-left: 46px;
+    
+}
+.section {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: poppins;
+    font-size: 13px;
+    text-align: center;
+}
+.i3 {
+    margin-top: 44px;
+}
+.section h2 {
+    margin-top: 25px;
+} 
+.phn {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 40px;
+    
+
+}
+.w-300px {
+    width: 300px;
+}
+
+.lineheight {
+    line-height: 40px;
+}
+.phn-top {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+} 
+
+.poppins {
+    font-family: poppins;
+}
+.phn-bottom {
+    display: flex;
+    gap :20px;
+}
+.phn-bottom img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+
+
+}
+.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.gpay {
+    display: flex;
+
+}
+.gpay img {
+    width: 350px;
+    height: auto;
+}
+.sec2 {
+    display: flex;
+    width: full;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: poppins;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.icons img {
+    width: 200px;
+    height: auto;
+    cursor: pointer; 
+    border: 2px solid gray;
+    border-radius: 8px; 
+    
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.leg {
+    width: 300px; 
+    font-size: 12px;
+    line-height: 35px;
+}
+.comp {
+    width: 300px;
+    font-size: 12px;
+    line-height: 35px;
+
+}
+.cont {
+    width: 300px;
+    font-size: 12px;
+    line-height: 35px;
+
+}
+.comp h3:hover {
+    font-weight: bolder;
+    color: gray;
+    transition: 0.3s ease-in-out;
+    
+}
+.leg h3:hover {
+    font-weight: bolder;
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+.cont h3:hover {
+    font-weight: bolder;
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
